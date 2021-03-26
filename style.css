@@ -1,0 +1,38 @@
+* {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.rad {
+    border: none;
+    height: 350px;
+    width: 1680px;
+    margin: none;
+    background-color: white;
+    flex-direction: row;
+}
+
+.bild {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-width: 2px;
+    position: absolute;
+    left: 2%;
+    border-color: slategray;
+}
+
+.bild:nth-of-type(1) {
+    background-image: url(1962.jpg);
+    background-size: cover;
+}
+
+.bild:nth-of-type(2) {
+    left: 391px;
+    width: 1330px;
+    flex-direction: column;
+}
+
+
